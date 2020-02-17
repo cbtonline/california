@@ -1,0 +1,615 @@
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .hide{
+    display: none;
+  }
+  .load-box{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+  }
+  .login-page{
+    background: black;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .login-page .box-2{
+    background: rgba(255,255,255,0.8);
+    width: 400px;
+    height: 221px;
+    margin: auto;
+  }
+  @media screen and (max-width: 400px)
+  and (min-width: 0px){
+    .login-page .box-2{
+      width: 98%;
+
+    }
+  }
+  .box-up{
+    overflow: hidden;
+    border-bottom: 1px solid grey;
+  }
+  .ubs-logo{
+    border: 1px solid grey;
+    width: 100px;
+    margin: auto;
+    padding: 10px 0;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    background: #9a3d37;
+  }
+  #ubs-txt{
+    font-weight: bold;
+    font-size: 30px;
+    display: block;
+  }
+  #ubs-slogan{
+    display: block;
+    font-size: 10px!important;
+  }
+  #security-check-1, .security-check-2{
+    height: 100px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+  }
+  .security-check-2{
+    display: none;
+  }
+  #signIn-txt{
+    font-size: 25px;
+    font-size: times;
+    display: block;
+    padding: 10px 0;
+  }
+  #accNum-txt{
+    display: block;
+  }
+  #account-number-input, .account-input-fields{
+    padding: 5px;
+    width: 95%;
+    border-color: transparent;
+    margin-top: 2px;
+    border-radius: 3px;
+  }
+  #account-number-btn, .account-checks-btn{
+    width: 99%;
+    padding: 2px 0;
+    margin: auto;
+    margin-top: 10px;
+    color: #000;
+    font-weight: bold;
+    border-color: transparent;
+    border-radius: 3px;
+  }
+  #account-number-btn:hover{
+    box-shadow: 4px 4px 12px grey;
+  }
+  .box-down{
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  .box-down hr{
+  }
+  #terms ul li{
+    font-size: 15px;
+    padding: 5px 5px;
+  }
+  #error-txt{
+    color: red;
+    display: block;
+    font-size: 80%;
+    padding: 0 5%;
+  }
+
+
+  /* WARNING: LOADER PAGE */
+  .loader-page{
+    background: #000;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+  }
+  .loader-page-info{
+    font-size: 90%;
+    color: #fff;
+    text-align: center;
+  }
+  .loader-page img{
+    border: 1px solid transparent;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+
+  /* WARNING: ACCOUNT */
+  .ACCOUNT{
+    display: none;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    overflow: hidden;
+    z-index: 80;
+    overflow-y: auto;
+  }
+  .top-logo{
+    padding: 10px;
+    color: #820000;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+  }
+  .top-logo-name{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: arial;
+  }
+  .top-logo i{
+    cursor: pointer;
+  }
+  .top-logo-slogan{
+    font-size: 5px;
+  }
+  .signout-box{
+    width: 80px;
+    border: solid;
+    text-align: center;
+    position: absolute;
+    right: 23px;
+    top: 8px;
+  }
+  .signout-box a{
+    text-decoration: none;
+    color: #000;
+  }
+  .account-user-info{
+    background: #d9d9d9;
+    padding: 10px 0;
+    margin-top: 52px;
+  }
+  .nameOfUser{
+    display: block;
+    font-size: 30px;
+    padding: 5px 10px;
+  }
+  .addressOfUser{
+    display: block;
+    font-size: 20px;
+    padding: 5px 10px;
+  }
+  .account-balance-info{
+    font-family: times;
+    overflow: hidden;
+  }
+  .account-balance-info .box-2{
+    float: left;
+    width: 50%;
+    padding: 10px 0;
+  }
+  .box-2-balance{
+    display: inline-block;
+    padding: 5px 10px;
+  }
+  .account-balance-txt{
+    font-size: 115%;
+    font-weight: bold;
+    font-family: arial;
+    letter-spacing: 1px;
+  }
+  .account-available-balance-txt{
+    font-size: 100%;
+    text-align: center;
+    display: block;
+    color: #bfbfbf;
+  }
+  .account-time-txt{
+    display: block;
+    text-align: center;
+    font-size: 80%;
+    color: #e8e8e8;
+  }
+  .account-previous-balance-txt{
+    font-weight: bold;
+    font-family: arial;
+  }
+  .account-previous-txt{
+    font-size: 80%;
+    color: #bfbfbf;
+  }
+  .top{
+    text-align: center;
+  }
+  .top span{
+    margin-left: 1px;
+    background: #00417a;
+    display: inline-block;
+    padding: 5px;
+    color: #fff;
+    width: 100px;
+
+  }
+  .quick-links-box{
+    position: relative;
+  }
+  .quick-links{
+    text-align: right;
+    width: 80%;
+    right: 0;
+  }
+  .quick-links a{
+    cursor: pointer;
+    font-family: arial;
+    display: block;
+    font-size: 90%;
+    color: #00417a;
+  }
+  .quick-links a:hover{
+    text-decoration: underline;
+  }
+  /* WARNING: desktop navigation */
+  .dsk-navigation{
+    overflow: hidden;
+
+  }
+  .dsk-navigation .box-4{
+    width: 29%;
+    padding: 5px;
+    text-align: center;
+    background: #d9d9d9;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .sections{
+    display: block;
+  }
+  .active-section{
+    background: #fff!important;
+    border-top: 2px solid #00417a;
+    border-right: 1px solid #d9d9d9;
+  }
+  .activity-txt{
+    color: #00417a;
+    font-family: arial;
+    font-size: 12px;
+    display: block;
+    font-weight: bold;
+  }
+  .activity-new-txt{
+    font-size: 80%;
+    color: #666666;
+  }
+  /* WARNING: TRANSACTIONS */
+  .activity-section{
+    overflow: auto;
+    padding: 20px 5px;
+  }
+  .activity-section ul{
+    margin: auto;
+    list-style: none;
+    overflow: auto;
+    min-width: 550px;
+  }
+  .activity-section ul li{
+    padding: 5px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #d9d9d9;
+
+  }
+  .activity-section ul li span{
+    width: 15%;
+    display: inline-block;
+    font-size: 80%;
+    margin-left: 3px;
+  }
+  .activity-section ul li span i{
+    font-size: 15px;
+    font-weight: lighter;
+
+  }
+  .t-date{
+    padding-left: 2px;
+    width: 50px!important;
+  }
+  .t-description{
+
+  }
+  .t-description small{
+    font-size: 70%;
+  }
+  .t-status, .t-debit, .t-credit{
+
+  }
+  .actual-transaction .t-status{
+    text-align: center;
+    color: green;
+  }
+  /* WARNING: TRANSFER */
+  .close-transfer-btn{
+    position: fixed;
+    z-index: 90;
+    background: #fff;
+    font-size: 38px!important;
+    right: 10px;
+    color: #545454;
+  }
+  .transfer-section{
+    display: none; /* COMBAK: before launch */
+    position: fixed;
+    background: #fff;
+    z-index: 90;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .transfer-visuals{
+    width: 90%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .steps span{
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    color: #d9d9d9;
+  }
+  .steps-visual{
+    text-align: center;
+    color: #d9d9d9;
+  }
+  .steps-visual .circle{
+    border: 1px solid #d9d9d9;
+    border-radius: 50%;
+    padding: 5px;
+    display: inline-block;
+
+  }
+  .steps-visual .line{
+    height: 1px;
+    width: 29%;
+    background: #d9d9d9;
+    display: inline-block;
+  }
+  .receiver-info{
+    display: block; /* COMBAK:  */
+    margin-top: 10px;
+    border-bottom: 1px solid grey;
+    height: 85%;
+    background: #d9d9d9;
+    overflow: hidden;
+    overflow-y: auto;
+    padding-bottom: 30px;
+  }
+  .form-group{
+    padding: 10px;
+  }
+  .form-group label{
+    display: block;
+    font-size: 20px;
+  }
+  .form-group input{
+    width: 95%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 120%;
+  }
+  .swift-code-input{
+    width: 150px!important;
+    font-size: 88%!important;
+  }
+  .amount-input{
+    width: 100px!important;
+    font-size: 90%!important;
+  }
+  .transfer-nxt-btn{
+    display: block;
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+    border: none;
+  }
+  .summary-section{
+    display: none;
+    height: 70%;
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+    font-family: arial;
+    color: grey;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .amount-txt{
+    font-size: 120%;
+    font-weight: bold;
+  }
+  .summary-section span{
+    font-size: 90%;
+    position: relative;
+  }
+  .receiverName-txt, .bankName-txt, .accNumber-txt{
+    font-size: 130%;
+    font-weight: bold;
+  }
+
+  .receiverName-txt, .bankName-txt, .accNumber-txt{
+    font-size: 90%;
+  }
+  .secret-code{
+    border-top: 1px solid #d9d9d9;
+    padding: 10px 5%;
+    background: #0e2147;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+  }
+  .secret-code p{
+    font-family: verdana;
+    color: snow;
+    font-size: 90%;
+  }
+  .secret-code-input{
+    padding: 5px;
+    margin: auto;
+    margin-top: 5px;
+    width: 100px;
+  }
+  .transfer-btn{
+    margin-top: 20px;
+    display: inline;
+    padding: 10px;
+    background: #d9d9d9;
+    border: none;
+  }
+  .transfer-approved{
+    top: 0;
+  }
+  .transfer-approved a{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 8px;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+
+  /* WARNING: DEFUALT EMAIL SECTION */
+  .default-section{
+    display: none;
+    position: fixed;
+    top: 0;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    height: 100%;
+    width: 100%;
+    z-index: 90;
+  }
+  .inner-box{
+    background: rgba(0,0,0,0.7);
+    height: 100%;
+    width: 100%;
+  }
+  .security-check{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: rgba(255,255,255,0.5);
+    height: 300px;
+    width: 280px;
+    padding: 10px;
+    border-radius: 2px;
+  }
+  .default-sec-btn{
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .default-close-btn{
+    font-size: 35px!important;
+    position: fixed;
+    right: 10px;
+    color: silver;
+  }
+  .menu-section{
+    display: none;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    position: fixed;
+    z-index: 90;
+  }
+  .menu-remove-btn{
+    position: absolute;
+    right: 30px;
+    font-size: 25px!important;
+    font-weight: lighter;
+    display: inline-block;
+  }
+  .menu-section .top-logo-name{
+    text-align: center;
+    width: 80%;
+    display: inline-block;
+  }
+  .menu-section ul{
+    margin-top: 60px;
+    width: 100%;
+    display: block;
+
+  }
+  .menu-section ul li{
+    display: block;
+    border: 1px solid;
+    text-align: center;
+    padding: 10px 0;
+    border:1px solid #fff;
+    color: #fff;
+    font-family: verdana;
+  }
+
+  /* WARNING: transaction section */
+  .close-transaction-btn{
+    font-size: 25px!important;
+    position: fixed;
+    right: 10px;
+  }
+  .transaction-section, .transaction-style{
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    z-index: 90;
+    background: #d1d1d1;
+  }
+  .transaction-section ul{
+    padding: 15px 0;
+  }
+  .transaction-section ul li{
+    padding: 5px 8px;
+    border-bottom: 1px solid #000;
+    color: grey;
+  }
+  .transaction-section ul li span{
+    display: inline-block;
+    padding: 5px;
+  }
+  .amount-col{
+    position: absolute;
+    right: 5px;
+    font-size: 120%;
+  }
+  .jnr-txt{
+    font-size: 10px;
+  }
+  .top-effect{
+    background: #f2f1eb!important;
+  }
+  .bottom-effect{
+    color: #d1d0cb;
+  }
+  .failed-effect{
+    color: gold;
+  }
+  .checkedIn-effect{
+    color: green;
+  }
+
+  body{
+  }
