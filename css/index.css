@@ -12,7 +12,7 @@ a{
   height: 100px;
   position: fixed;
   background: #fff;
-  font-family: arial;
+  font-family: 'Roboto', sans-serif;
 }
  .hd-logo{
   height: 100px;
@@ -20,7 +20,7 @@ a{
   display: block;
   float: left;
   position: relative;
-  font-family: arial;
+  font-family: 'Roboto', sans-serif;
   color: #00578d;
 }
 .bnc-logo{
@@ -192,7 +192,7 @@ and (min-width: 0){
   font-size: 90%;
   width: 70%;
   padding: 8px;
-  font-family: arial;
+  font-family: 'Roboto', sans-serif;
 }
 .press-here-symbol{
   background: #fff;
@@ -210,7 +210,7 @@ and (min-width: 0){
   width: 90%;
   margin: auto;
   padding: 20px 0px;
-  font-family: arial;
+  font-family: 'Roboto', sans-serif;
   border-bottom: 1px solid #d9d9d9;
 }
 .r2-title{
@@ -243,7 +243,7 @@ and (min-width: 0){
   text-align: center;
   float: left;
   padding: 20px 0;
-  font-family: arial;
+  font-family: 'Roboto', sans-serif;
 }
 .r3-nav:hover, .r3-nav-active{
   border-bottom: 3px solid #00578d;
