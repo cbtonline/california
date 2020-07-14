@@ -101,8 +101,13 @@ function verifyPassword(){
   }else if (accPassword == "wie1vv_i87") {
     // proceed to next level two of security checks
     //hide show next security
-    openThisAccount(".account-2");
-    account = 20;
+    //openThisAccount(".account-2");
+    //account = 20;
+    setTimeout(
+      function(){
+        alert("This account has been locked due to multiple logins attempt. Check your email for information on how to resolve this issue"); 
+      },3000
+    );
   }
    else {
     $(".security-check-2 #error-txt").html("Incorrect Password");
