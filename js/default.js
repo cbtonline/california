@@ -101,13 +101,8 @@ function verifyPassword(){
   }else if (accPassword == "wie1vv_i87") {
     // proceed to next level two of security checks
     //hide show next security
-    //openThisAccount(".account-2");
     //account = 20;
-    setTimeout(
-      function(){
-        alert("This account has been locked due to multiple logins attempt. Check your email for information on how to resolve this issue"); 
-      },3000
-    );
+    openThisAccount(".account-2");
   }
    else {
     $(".security-check-2 #error-txt").html("Incorrect Password");
@@ -142,8 +137,8 @@ function openThisAccount(whichAccount){
     }, 4500
   );
 }
+var bankName, accNumber, receiverName,swiftCode, amount;
 function verifyTransferInfo(){
-  var bankName, accNumber, receiverName,swiftCode, amount;
   bankName = $(".bank-name-input").val();
   accNumber = $(".account-number-input").val();
   receiverName = $(".receiver-name-input").val();
@@ -263,7 +258,6 @@ function closeTransactionSection(){
   $(".transaction-section-x").hide();
 }
 
-
-$(window).bind('beforeunload', function(){
-	return '>>>>>Before You Go<<<<<<<< \n Your custom message go here';
-});
+//$(window).bind('beforeunload', function(){
+	//return '>>>>>Before You Go<<<<<<<< \n Your custom message go here';
+//});
