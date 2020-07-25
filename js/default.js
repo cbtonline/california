@@ -204,7 +204,7 @@ function confirmSecretCode(){
         $(".loader-page").hide();
         $(".summary-section").hide();
         $(".confirmed-section").slideDown();
-      }, 2000 // COMBAK: 40 seconds
+      }, 8000 // COMBAK: 40 seconds
     );
   } else {
     $(".secret-code .error-txt").html("Incorrect code");
