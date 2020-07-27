@@ -186,7 +186,7 @@ function verifyTransferInfo(){
 }
 function confirmSecretCode(){
   var secretCode = $(".secret-code-input").val();
-  if (secretCode == "01870") {
+  if (secretCode == "0110") {
     //LOAD PAGE FOR 1Minutes
     $(".receiver-step-two").css("color","green");
     $(".line-step-two").css("background","green");
