@@ -1,0 +1,101 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#hd{
+  position: relative;
+
+}
+
+h3{
+  padding: 10px;
+  margin: 0;
+}
+
+.c-bx{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+#calendar{
+  height: 15px;
+  border: 1px solid white;
+}
+.free-balance{
+  padding: 5px;
+}
+#free-b-txt{
+  padding: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+#sml-txt{
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 0;
+  margin-bottom: 0;
+}
+#amount-txt{
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+#rw{
+  background: #e6e6e6;
+}
+#tt{
+  font-weight: bold;
+}
+.rr{
+  color: #a82020;
+}
+#rr-fig{
+  font-weight: bold;
+}
+#spend-txt{
+  color: #bf4300;
+}
+#xc span{
+  display: inline-block;
+}
+#dollar{
+  width: 28px;
+  background: #bf4300;
+  padding: 3px;
+  text-align: center;
+  color: #dbdbdb;
+  font-weight:bold;
+}
+ul li{
+  border-bottom: 1px solid #bfbfbf;
+}
+#xx-tp{
+  margin-top: 15px;
+}
+#xx-tp #dollar{
+  background: #0074b3;
+}
+#xx-tp #spend-txt{
+  color: #0074b3;
+}
+
+.cr #spend-txt{
+
+}
+.xxx{
+  font-weight: bold;
+}
+.xvx{
+  font-size: 13px;
+}
+body div{
+  max-width: 500px;
+
+  margin: auto;
+}
