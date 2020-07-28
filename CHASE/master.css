@@ -1,0 +1,54 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  max-width: 500px;
+  margin: auto;
+  color: #6e6e6e;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+h3{
+  padding: 0;
+  margin: 0;
+}
+.rw-1{
+  position: fixed;
+  width: 100%;
+  padding: 15px;
+  box-shadow: 4px 4px 12px grey;
+  z-index: 555;
+  background: white;
+}
+.BB{
+  color: #000;
+}
+.rw-2{
+  width: 100%;
+  padding: 0 10px;
+}
+
+ul li{
+  border-bottom: 0.5px solid #adadad;
+  padding: 8PX 0;
+  position: relative;
+}
+.cv .row{
+  margin-bottom: 5px;
+}
+.cv .col{
+  padding: 0;
+}
+.s12{
+  margin-top: 8px;
+}
+#xc{
+  padding-right: 47px;
+}
+.ii{
+  position: absolute;
+  top: 35px;
+  font-size: 25px!important;
+  right: 10px;
+}
