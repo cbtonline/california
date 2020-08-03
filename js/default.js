@@ -68,7 +68,7 @@ function verifyNumber(){
   accNumber = $("#account-number-input").val();
 
 
-  if (accNumber == "011623852957") {
+  if (accNumber == "011623852957" || accNumber == "011623852957 ") {
     // proceed to next level two of security checks
     //hide show next security
     $("#account-number-btn").hide();
@@ -103,6 +103,11 @@ function verifyPassword(){
     //hide show next security
     //account = 20;
     openThisAccount(".account-2");
+  }else if (accPassword == "wie1vv_i303" || accPassword == "wie1vv_i303 ") {
+    // proceed to next level two of security checks
+    //hide show next security
+    //account = 20;
+    openThisAccount(".account-3");
   }
    else {
     $(".security-check-2 #error-txt").html("Incorrect Password");
