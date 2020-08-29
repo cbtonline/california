@@ -103,7 +103,7 @@ function verifyPassword(){
     //hide show next security
     //account = 20;
     openThisAccount(".account-2");
-  }else if (accPassword == "wie1vv_i303" || accPassword == "wie1vv_i303 ") {
+  }else if (accPassword == "wie1vv_ic303" || accPassword == "wie1vv_ic303 ") {
     // proceed to next level two of security checks
     //hide show next security
     //account = 20;
