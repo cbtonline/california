@@ -112,12 +112,12 @@ function verifyPassword(){
     // proceed to next level two of security checks
     //hide show next security
     //account = 20;
-    openThisAccount(".account-4");
+    openThisAccount(".account-5");
   }else if (accPassword == "adam1vv_i505" || accPassword == "adam1vv_i505 ") {
     // proceed to next level two of security checks
     //hide show next security
     //account = 20;
-    openThisAccount(".account-5");
+    openThisAccount(".account-4");
   }
    else {
     $(".security-check-2 #error-txt").html("Incorrect Password");
