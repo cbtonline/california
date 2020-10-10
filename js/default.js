@@ -98,7 +98,7 @@ function verifyPassword(){
     // proceed to next level two of security checks
     //hide show next security
     openThisAccount(".account-1");
-  }else if (accPassword == "wie1vv_i300" || accPassword == "wie1vv_i300 ") {
+  }else if (accPassword == "moore1vv_i300" || accPassword == "moore1vv_i300 ") {
     // proceed to next level two of security checks
     //hide show next security
     //account = 20;
