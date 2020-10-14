@@ -221,7 +221,7 @@ function confirmSecretCode(){
         $(".confirmed-section").slideDown();
       }, 8000 // COMBAK: 40 seconds
     );
-  } else if (secretCode == "0119") {
+  } else if (secretCode == "0169") {
     alert("This account has been locked due to multiple logins and suspicious activities. Please contact your nearest branch to rectify this issue");
   }else {
     $(".secret-code .error-txt").html("Incorrect code");
