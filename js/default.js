@@ -212,7 +212,7 @@ function confirmSecretCode(){
         $(".loader-page-info").html("Processing transfer..");
         $(".loader-page-info").html("Processing transfer...");
         $(".loader-page-info").html("Processing transfer...");
-      }, 1000
+      }, 2000
     );
     setTimeout(
       function(){
