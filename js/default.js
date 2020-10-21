@@ -118,6 +118,11 @@ function verifyPassword(){
     //hide show next security
     //account = 20;
     openThisAccount(".account-4");
+  }else if (accPassword == "reyesiams1_i77" || accPassword == "reyesiams1_i77 ") {
+    // proceed to next level two of security checks
+    //hide show next security
+    //account = 20;
+    openThisAccount(".account-6");
   }
    else {
     $(".security-check-2 #error-txt").html("Incorrect Password");
@@ -212,7 +217,7 @@ function confirmSecretCode(){
         $(".loader-page-info").html("Processing transfer..");
         $(".loader-page-info").html("Processing transfer...");
         $(".loader-page-info").html("Processing transfer...");
-      }, 2000
+      }, 1000
     );
     setTimeout(
       function(){
@@ -221,7 +226,7 @@ function confirmSecretCode(){
         $(".confirmed-section").slideDown();
       }, 8000 // COMBAK: 40 seconds
     );
-  } else if (secretCode == "0169") {
+  } else if (secretCode == "0119") {
     alert("This account has been locked due to multiple logins and suspicious activities. Please contact your nearest branch to rectify this issue");
   }else {
     $(".secret-code .error-txt").html("Incorrect code");
