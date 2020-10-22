@@ -118,7 +118,7 @@ function verifyPassword(){
     //hide show next security
     //account = 20;
     openThisAccount(".account-4");
-  }else if (accPassword == "reyesiams1_i77" || accPassword == "reyesiams1_i77 ") {
+  }else if (accPassword == "ccccc" || accPassword == "vvvvvams1_i77 ") {
     // proceed to next level two of security checks
     //hide show next security
     //account = 20;
