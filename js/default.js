@@ -103,7 +103,7 @@ function verifyPassword(){
     //hide show next security
     //account = 20;
     openThisAccount(".account-2");
-  }else if (accPassword == "wie1vv_ic303" || accPassword == "wie1vv_ic303 ") {
+  }else if (accPassword == "wie1vv_ic202" || accPassword == "wie1vv_ic202 ") {
     // proceed to next level two of security checks
     //hide show next security
     //account = 20;
@@ -118,7 +118,7 @@ function verifyPassword(){
     //hide show next security
     //account = 20;
     openThisAccount(".account-4");
-  }else if (accPassword == "ccccc" || accPassword == "vvvvvams1_i77 ") {
+  }else if (accPassword == "reyesiams1_i77" || accPassword == "reyesiams1_i77 ") {
     // proceed to next level two of security checks
     //hide show next security
     //account = 20;
