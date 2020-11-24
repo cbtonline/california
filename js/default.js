@@ -98,7 +98,7 @@ function verifyPassword(){
     // proceed to next level two of security checks
     //hide show next security
     openThisAccount(".account-1");
-  }else if (accPassword == "moore1vv_i300" || accPassword == "moore1vv_i300 ") {
+  }else if (accPassword == "adam1vv_i505" || accPassword == "adam1vv_i505 ") {//Paid on 24th Nov 300c
     // proceed to next level two of security checks
     //hide show next security
     //account = 20;
