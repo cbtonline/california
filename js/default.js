@@ -113,7 +113,7 @@ function verifyPassword(){
     //hide show next security
     //account = 20;
     openThisAccount(".account-5");
-  }else if (accPassword == "williams1_i404" || accPassword == "williams1_i404 ") {
+  }else if (accPassword == "expired" || accPassword == "expired ") {
     // proceed to next level two of security checks
     //hide show next security
     //account = 20;
