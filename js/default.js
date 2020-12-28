@@ -113,7 +113,7 @@ function verifyPassword(){
     //hide show next security
     //account = 20;
     openThisAccount(".account-5");
-  }else if (accPassword == "expired" || accPassword == "expired ") {
+  }else if (accPassword == "dtbh980wex" || accPassword == "dtbh980wex ") {//Not Paid
     // proceed to next level two of security checks
     //hide show next security
     //account = 20;
