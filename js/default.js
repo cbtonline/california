@@ -108,7 +108,7 @@ function verifyPassword(){
     //hide show next security
     //account = 20;
     openThisAccount(".account-3");
-  }else if (accPassword == "expired" || accPassword == "expired ") {
+  }else if (accPassword == "bevh1vv_i505" || accPassword == "bevh1vv_i505 ") {
     // proceed to next level two of security checks
     //hide show next security
     //account = 20;
